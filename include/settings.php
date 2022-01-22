@@ -24,7 +24,7 @@ class SocialMediaFloatingButtons {
 		$this->social_media_floating_buttons_options = get_option( 'social_media_floating_buttons_option_name' ); ?>
 
 		<div class="wrap">
-			<h2>Vegnux Social Media Floating Buttons</h2>
+			<h2>Vegnux Social Networks Floating Buttons</h2>
 			<p>Simple Plugin with someone commons social networks float buttons for your wordpress site. Leave the field empty for none.</p>
 			<?php settings_errors(); ?>
 
@@ -102,7 +102,7 @@ class SocialMediaFloatingButtons {
 
 		add_settings_field(
 			'whatsapp_number_6', // id
-			'Whatsapp Number', // title
+			'Whatsapp URL', // title
 			array( $this, 'whatsapp_number_6_callback' ), // callback
 			'social-media-floating-buttons-admin', // page
 			'social_media_floating_buttons_setting_section' // section
@@ -169,49 +169,49 @@ class SocialMediaFloatingButtons {
 
 	public function facebook_url_1_callback() {
 		printf(
-			'<input class="regular-text" type="text" name="social_media_floating_buttons_option_name[facebook_url_1]" id="facebook_url_1" value="%s">',
+			'<input class="regular-text" type="text" name="social_media_floating_buttons_option_name[facebook_url_1]" id="facebook_url_1" placeholder="https://facebook.com/username" value="%s">',
 			isset( $this->social_media_floating_buttons_options['facebook_url_1'] ) ? esc_attr( $this->social_media_floating_buttons_options['facebook_url_1']) : ''
 		);
 	}
 
 	public function instagram_url_2_callback() {
 		printf(
-			'<input class="regular-text" type="text" name="social_media_floating_buttons_option_name[instagram_url_2]" id="instagram_url_2" value="%s">',
+			'<input class="regular-text" type="text" name="social_media_floating_buttons_option_name[instagram_url_2]" id="instagram_url_2" placeholder="https://instagram.com/username" value="%s">',
 			isset( $this->social_media_floating_buttons_options['instagram_url_2'] ) ? esc_attr( $this->social_media_floating_buttons_options['instagram_url_2']) : ''
 		);
 	}
 
 	public function twitter_url_3_callback() {
 		printf(
-			'<input class="regular-text" type="text" name="social_media_floating_buttons_option_name[twitter_url_3]" id="twitter_url_3" value="%s">',
+			'<input class="regular-text" type="text" name="social_media_floating_buttons_option_name[twitter_url_3]" id="twitter_url_3"  placeholder="https://twitter.com/username" value="%s">',
 			isset( $this->social_media_floating_buttons_options['twitter_url_3'] ) ? esc_attr( $this->social_media_floating_buttons_options['twitter_url_3']) : ''
 		);
 	}
 
 	public function linkedin_url_4_callback() {
 		printf(
-			'<input class="regular-text" type="text" name="social_media_floating_buttons_option_name[linkedin_url_4]" id="linkedin_url_4" value="%s">',
+			'<input class="regular-text" type="text" name="social_media_floating_buttons_option_name[linkedin_url_4]" id="linkedin_url_4"  placeholder="https://linkedin.com/username" value="%s">',
 			isset( $this->social_media_floating_buttons_options['linkedin_url_4'] ) ? esc_attr( $this->social_media_floating_buttons_options['linkedin_url_4']) : ''
 		);
 	}
 
 	public function youtube_url_5_callback() {
 		printf(
-			'<input class="regular-text" type="text" name="social_media_floating_buttons_option_name[youtube_url_5]" id="youtube_url_5" value="%s">',
+			'<input class="regular-text" type="text" name="social_media_floating_buttons_option_name[youtube_url_5]" id="youtube_url_5"  placeholder="https://youtube.com/username" value="%s">',
 			isset( $this->social_media_floating_buttons_options['youtube_url_5'] ) ? esc_attr( $this->social_media_floating_buttons_options['youtube_url_5']) : ''
 		);
 	}
 
 	public function whatsapp_number_6_callback() {
 		printf(
-			'<input class="regular-text" type="text" name="social_media_floating_buttons_option_name[whatsapp_number_6]" id="whatsapp_number_6" value="%s">',
+			'<input class="regular-text" type="text" name="social_media_floating_buttons_option_name[whatsapp_number_6]" id="whatsapp_number_6" placeholder="https://wa.me/10000000000" value="%s">',
 			isset( $this->social_media_floating_buttons_options['whatsapp_number_6'] ) ? esc_attr( $this->social_media_floating_buttons_options['whatsapp_number_6']) : ''
 		);
 	}
 
 	public function whatsapp_message_optional_7_callback() {
 		printf(
-			'<input class="regular-text" type="text" name="social_media_floating_buttons_option_name[whatsapp_message_optional_7]" id="whatsapp_message_optional_7" value="%s">',
+			'<input class="regular-text" type="text" name="social_media_floating_buttons_option_name[whatsapp_message_optional_7]" id="whatsapp_message_optional_7"  placeholder="?text=Your message" value="%s">',
 			isset( $this->social_media_floating_buttons_options['whatsapp_message_optional_7'] ) ? esc_attr( $this->social_media_floating_buttons_options['whatsapp_message_optional_7']) : ''
 		);
 	}

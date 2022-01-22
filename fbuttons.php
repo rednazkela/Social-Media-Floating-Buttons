@@ -1,9 +1,9 @@
 <?php
 /*
-Plugin Name: Social Media Floating Buttons
+Plugin Name: Social Network & Whatsapp Floating Buttons
 Plugin URI: https://github.com/cargabsj175/
-Description: Simple Plugin with more commons social networks float buttons for your wordpress site.
-Version: 0.1
+Description: Simple Plugin with more commons social networks and whatsapp float buttons for your wordpress site.
+Version: 0.3
 Author: Carlos Sanchez
 Author URI: https://github.com/cargabsj175/
 Text Domain: vgxfbuttons

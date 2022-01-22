@@ -89,7 +89,7 @@ echo '';
 }else{
 echo '
 <!-- Boton de Whatsapp -->
-<a href="https://wa.me/'.$whatsapp_number_6.'?text='.$whatsapp_message_optional_7.'" class="float-ws" target="_blank">
+<a href="'.$whatsapp_number_6.''.$whatsapp_message_optional_7.'" class="float-ws" target="_blank">
 <i class="fa fa-whatsapp my-float"></i>
 </a>';
 }
