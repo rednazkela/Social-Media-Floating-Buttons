@@ -3,8 +3,8 @@
 .smfbuttons{
     position:fixed;
     width:auto;
-    bottom: 20vh;
-    left: 91.5vw;
+    top: 20vh;
+    right: 1.5vw;
     height:auto;
     z-index:1000;
     text-align:center;
