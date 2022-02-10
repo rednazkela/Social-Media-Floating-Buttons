@@ -6,7 +6,7 @@
     bottom:4vh;
     left: 2vh;
     height:auto;
-    z-index:100;
+    z-index:1000;
     text-align:center;
 }
 .float-ig{
@@ -111,8 +111,8 @@
 }
 
 .my-float{
-    margin-left:10px;
-    margin-right:10px;
+    margin-left:9px;
+    margin-right:9px;
     margin-top: 8px;
     margin-bottom: 8px;
 }
