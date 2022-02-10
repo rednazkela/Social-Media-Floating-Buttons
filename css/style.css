@@ -3,12 +3,13 @@
 .smfbuttons{
     position:fixed;
     width:auto;
-    bottom:4vh;
-    left: 2vh;
+    bottom: 20vh;
+    left: calc(100vw - 80px);
     height:auto;
     z-index:1000;
     text-align:center;
 }
+
 .float-ig{
     display: block;
     width: 100%;
@@ -36,6 +37,7 @@
     font-size:30px;
     margin-bottom:10px;
 }
+
 .float-fb:hover {
     color: #ffffff;
     background-color:rgb(46, 76, 131);
@@ -111,8 +113,7 @@
 }
 
 .my-float{
-    margin-left:9px;
+    margin-left:10px;
     margin-right:10px;
-    margin-top: 8px;
     margin-bottom: 8px;
 }
